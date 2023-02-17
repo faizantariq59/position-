@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        height: 200px;
+        width: 100%;
+        background-color: violet;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 1.7em;
+    }
+       .nav{
+        height: 20px;
+        width: 100%;
+        background-color: rgb(27, 24, 24);
+        padding: 40px;
+       }
+       nav{
+        position: sticky;
+        top: 0;
+       }
+       nav a{
+        text-decoration: none;
+        color: rgb(234, 229, 229);
+        font-size: 1.5em;
+        padding-left: 100px;
+         
+       }
+       nav a:hover{
+        font-size: 1.6em;
+        color: violet;
+       }
+       @media  screen and (max-width:820px) and (min-width:480px)
+        {
+        nav a{
+            font-size: 1.4em;
+            padding-left: 20px;
+        }
+       }
+       @media  screen and (max-width:480px) and (min-width:432px)
+        {
+        nav a{
+            font-size: 1.4em;
+            padding-left: 10px;
+        }
+       }
+       @media  screen and (max-width:432px) and (min-width:425px) 
+        {
+        nav a{
+            font-size: 1.3em;
+            padding-left: 10px;
+        }
+       }
+       @media  screen and (max-width:425px)  
+        {
+        nav a{
+            font-size: 0.7em;
+            padding-left: 6px;
+            font-weight: bolder;
+        }
+        nav a:hover{
+        font-size: 0.9em;
+        color: violet;
+       }
+       }
+       .text{
+       width: 80%;
+        margin: 40px auto;
+       }
+       p{
+       word-spacing: 2px;
+       }
+       #go{
+        float: right;
+        text-decoration: none;
+        color: black;
+        position: sticky;
+        right: 30px;
+        bottom: 30px;
+        background-color: rgba(137, 43, 226, 0.221);
+        border-radius: 6px;
+       }
+</style>
+<body>
+    <div class="header">
+        <h1>Products</h1>
+    </div>
+    <nav>
+        <div class="nav">
+            <a href="#Tools">Tools</a>
+            <a href="#Gadgets">Gadgets</a>
+            <a href="#Instruments">Instruments</a>
+            <a href="#Mobile">Mobile</a>
+        </div>
+    </nav>
+    <br>
+    <div class="text">
+    <h1>
+        <a name="Tools"> Tools</a>
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ducimus libero. Sapiente quo fugit quod itaque architecto ullam minus? Repudiandae, repellat corporis aliquam laborum asperiores perspiciatis temporibus illo maiores sed itaque iure ducimus dolores eligendi, corrupti, optio dolorum! Sit eaque nulla eum harum architecto accusantium quae distinctio sunt aliquam beatae est non quis deserunt recusandae, excepturi, vitae natus minus cupiditate enim aut. Eveniet amet ratione inventore maxime voluptates nisi similique laudantium quaerat ipsa, dolor, itaque iure neque quisquam voluptatibus consequatur natus necessitatibus error. Numquam veniam nemo beatae aperiam placeat sed corrupti itaque, sequi architecto consequatur rem animi corporis, laudantium perferendis!</p>
+    <br>
+    <h1>
+        <a name="Gadgets"> Gadgets</a>
+       
+    </h1> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ducimus libero. Sapiente quo fugit quod itaque architecto ullam minus? Repudiandae, repellat corporis aliquam laborum asperiores perspiciatis temporibus illo maiores sed itaque iure ducimus dolores eligendi, corrupti, optio dolorum! Sit eaque nulla eum harum architecto accusantium quae distinctio sunt aliquam beatae est non quis deserunt recusandae, excepturi, vitae natus minus cupiditate enim aut. Eveniet amet ratione inventore maxime voluptates nisi similique laudantium quaerat ipsa, dolor, itaque iure neque quisquam voluptatibus consequatur natus necessitatibus error. Numquam veniam nemo beatae aperiam placeat sed corrupti itaque, sequi architecto consequatur rem animi corporis, laudantium perferendis!</p>
+    <br>
+    <h1>
+        <a name="Instruments"> Instruments</a>
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ducimus libero. Sapiente quo fugit quod itaque architecto ullam minus? Repudiandae, repellat corporis aliquam laborum asperiores perspiciatis temporibus illo maiores sed itaque iure ducimus dolores eligendi, corrupti, optio dolorum! Sit eaque nulla eum harum architecto accusantium quae distinctio sunt aliquam beatae est non quis deserunt recusandae, excepturi, vitae natus minus cupiditate enim aut. Eveniet amet ratione inventore maxime voluptates nisi similique laudantium quaerat ipsa, dolor, itaque iure neque quisquam voluptatibus consequatur natus necessitatibus error. Numquam veniam nemo beatae aperiam placeat sed corrupti itaque, sequi architecto consequatur rem animi corporis, laudantium perferendis!</p>
+    <br>
+    <h1>
+        <a name="Mobile"> Mobile</a>
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ducimus libero. Sapiente quo fugit quod itaque architecto ullam minus? Repudiandae, repellat corporis aliquam laborum asperiores perspiciatis temporibus illo maiores sed itaque iure ducimus dolores eligendi, corrupti, optio dolorum! Sit eaque nulla eum harum architecto accusantium quae distinctio sunt aliquam beatae est non quis deserunt recusandae, excepturi, vitae natus minus cupiditate enim aut. Eveniet amet ratione inventore maxime voluptates nisi similique laudantium quaerat ipsa, dolor, itaque iure neque quisquam voluptatibus consequatur natus necessitatibus error. Numquam veniam nemo beatae aperiam placeat sed corrupti itaque, sequi architecto consequatur rem animi corporis, laudantium perferendis!</p>
+</div>
+<a href="challenge4.html" id="go">Go Up..</a>
+   
+</body>
+</html>
